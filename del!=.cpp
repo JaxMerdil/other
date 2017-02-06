@@ -3,6 +3,8 @@
 #include <numeric>
 #include <algorithm>
 
+//Равновесие. Вычитание ненужного значения для равновесия
+
 using namespace std;
 
 int solution(vector<int> &A)
