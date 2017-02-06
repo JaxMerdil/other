@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+//Перемещение части вектора от К-го элемента с конца
 
 using namespace std;
 
