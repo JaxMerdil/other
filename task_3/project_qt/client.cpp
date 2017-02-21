@@ -45,7 +45,7 @@ void Client::WriteSocketPackage()
     }
     const int sizeInf = strlen(m_package)+m_stime.length();
     std::strcat(m_package, m_strToChar);
-    const int m_size = 4096;
+    const int m_size = 4*1024;
     char str[m_size];
     memset(str,'f',m_size);
     for(int i=0; i<sizeInf; ++i)
